@@ -9,7 +9,7 @@ body{
     line-height: 130%;
 }
 p{
-    margin: 10px 0px;
+    margin: 10px 10px;
     width: 100%;
 }
 i{
@@ -24,31 +24,86 @@ a{
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
 }
+.boxcenter{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #E8E8E8;
+}
 /* begin header  */
 header{
-    /* background-color: orange; */
+    background-color: #00BFFF;
     min-height: 90px;
+    width: 100%;
     position: relative;
-    top:10px;
+    
+    
 }
+
+header i{
+    padding: 0 5px ;
+    font-size: 11pt;
+    color:#33F;
+}
+header input{
+    text-decoration: none;
+    border: none;
+    font-size: 10pt;
+    border: none;
+    background-color: #00BFFF;
+    color: black;
+    
+    
+    
+}
+
+header .box .container-1 .search{
+    border: 1px solid black; 
+    float: right;
+    border-radius: 10px;
+    margin-right: 20px;
+    
+
+
+ }
+.boder{
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    padding-right: 10px;
+}
+header i:hover{
+   color:#eaeaea ;
+}
+header a:hover,input:hover{
+   /* background-color: #3399CC; */
+   font-weight: 500;
+    color: #eaeaea;
+}
+.container-1{
+    padding-top: 10px;
+    line-height: 25px;
+}
+
 header img{
     float: left;
-    width: 20%;
+    width: 25%;
     padding-left: 100px;
+    padding-top: 10px;
 }
 /* end header  */
 /* begin nav  */
 nav{
     
     height: 40px;
-    line-height: 2px;
+    line-height: 1px;
     padding: 0px 20px;
     position: relative;
-    
+    padding-top: 40px;
+    background-color: #00B2EE;
 }
 nav .nav-list{
     position: absolute;
-    top: 20px;
+    top: 10px;
    
 }
 nav a{
@@ -70,12 +125,12 @@ nav i{
     padding-left: 0px;
 }
 nav i:hover{
-    color: #33F;
+    color:azure;
    
 }
 a:hover{
     
-    color: #33F;
+    color:azure;
     
     
 }
@@ -85,16 +140,9 @@ a:hover{
     float: right;
     line-height: 30px;
 }
-.container-1{
-    padding-top: 10px;
-    line-height: 50px;
-}
 
 
-.boxcenter{
-    width: 1200px;
-    margin: 0 auto;
-}
+
 .row{
     float: left;
     width: 100%;
@@ -283,7 +331,7 @@ a.linkdm:hover{
     font-family:Arial, Helvetica, sans-serif;
 }
 .container {
-    max-width: 1100px;
+    max-width:1100px;
     position: relative;
     margin: 0 auto;
     padding: 15px 0;
