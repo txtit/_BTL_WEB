@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lienhe</title>
+    <script src="/script/script.js"></script>
+</head>
+<body>
+    <form action="">
+        <table width="400" border="2" cellpadding="5" align="center" >
+            <tr>
+                <th colspan="2" >Liên Hệ</th>
+            </tr>
+
+            <tr>
+                <td>Tên</td>
+                <td>
+                    <input type="text" name="fname" size="30" placeholder="Nhập tên">
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="text" name="email" size="30" placeholder="Nhập Email">
+                </td>
+
+            </tr>
+            <tr>
+                <td>Subject</td>
+                <td>
+                    <input type="text" name="subject" size="30" placeholder="Nhập subject">
+                </td>
+
+            </tr>
+            <tr>
+                <td>Message</td>
+                <td>
+                    <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Nhập message"></textarea>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2" align ="center" >
+                    <input onclick="ftreset()" type="button" name="reset" value="Reset"> 
+                    <input onclick="ftsubmit()" type="button" name="Submit" value="Submit" id="Submit">
+                </td>
+                <!-- &nbsp;&nbsp -->
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
